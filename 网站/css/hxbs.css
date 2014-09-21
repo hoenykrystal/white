@@ -1,0 +1,91 @@
+html,body{width:100%;height:100%;margin:0;padding:0;overflow-x:hidden}
+ul,li
+{
+    list-style:none;
+    list-style-type:none;
+}
+#social_awesome_icons i{color:#fff;padding:1px}
+#wrapper{overflow:hidden}
+#wrapper,#header{background:#fff}
+body{font:16px/1.5 "proxima-nova","Lucida Grande","Helvetica",sans-serif !important;-webkit-font-smoothing:subpixel-antialiased;color:#111;background:#333}
+body.simple,body.error{background:#fff}
+body a{color:#2a5d84}
+body.is-home #header{border-bottom:0}
+h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:600
+
+}#header{border-bottom:1px solid #ccc}
+ #header #nav_links_container{height:100px}
+ #header #logo{margin-top:18px;display:inline-block}
+ #header nav{font-weight:bold;margin-top:2em}
+ #header nav>ul{float:right}
+ .launcher{height:14%;background:#fdf8f8;border: 1px solid #E9C1C1;}
+ .launcher ul{list-style:none;padding:20px 0}
+ .launcher ul li{float:left;width:110px;text-align:center;display:block;background:url(//d33np9n32j53g7.cloudfront.net/assets/new/launch-icon-bg-1f2e72b3d8227a512b18b773cb748240.png) no-repeat 50% 50%;position:relative;left: 70px;overflow:visible;cursor:pointer}
+ .launcher ul li .callout{width:143px;height:140px;padding:7px 10px 0; top:85px;left:-9999px;position:absolute;background:url(//d33np9n32j53g7.cloudfront.net/assets/new/launcher-callout-bg-c4cda0fe3512a31ea5a18e32402f59b7.png) no-repeat 0 0;text-align:center;color:black;font-size:.8em;cursor:auto;opacity:0;transition:opacity .25s ease-in-out;-moz-transition:opacity .25s ease-in-out}
+ .launcher ul li .callout h6{font-size:1.1em;margin:0 0 5px 0}
+ .launcher ul li .callout h6 span{color:#999}
+ .launcher ul li .callout>span{display:block;text-align:right;margin-top:3px}
+ .launcher ul li .callout>span,.launcher ul li .callout>span a{color:#999}
+ .launcher ul li .callout a.launch{display:block;background:#7eb900;color:inherit;border-bottom:2px solid #699a00;border-radius:5px;padding:6px 7px 2px;text-transform:uppercase;text-align:center;text-shadow:0 1px 0 #699a00}
+ .launcher ul li .callout a.launch:hover{text-decoration:none}
+ .launcher ul li .callout a.launch:active{border-color:#7eb900}
+ .launcher ul li:hover .callout,.launcher ul li.hover .callout{opacity:1;left:-24px}
+ .launcher ul li>a{display:block;margin:0 auto;margin-bottom:10%;width:74px;height:85px;text-indent:-9999px;background:url(../images/black_white.png) no-repeat 0 0;overflow:hidden}
+ .launcher ul li#more-stacks>a{text-indent:0;background:0;color:#555;font-size:2.6em;padding-top:25px;height:60px}
+ .launcher ul li#more-stacks>a:hover{color:#111}
+ .launcher ul li#wordpress a{background-position:-5px -85px}
+ .launcher ul li#wordpress:hover a,.launcher ul li#wordpress.hover a{background-position:-5px 0}
+ .launcher ul li#joomla a{background-position:-90px -85px}
+ .launcher ul li#joomla:hover a,.launcher ul li#joomla.hover a{background-position:-90px 0}
+ .launcher ul li#drupal a{background-position:-175px -85px}
+ .launcher ul li#drupal:hover a,.launcher ul li#drupal.hover a{background-position:-175px 0}
+ .launcher ul li#redmine a{background-position:-260px -85px}
+ .launcher ul li#redmine:hover a,.launcher ul li#redmine.hover a{background-position:-260px 0}
+ .launcher ul li#moodle a{background-position:-345px -85px}
+ .launcher ul li#moodle:hover a,.launcher ul li#moodle.hover a{background-position:-345px 0}
+ .launcher ul li#owncloud a{background-position:-430px -85px}
+ .launcher ul li#owncloud:hover a,.launcher ul li#owncloud.hover a{background-position:-430px 0}
+ .launcher ul li#magento a{background-position:-515px -85px}
+ .launcher ul li#magento:hover a,.launcher ul li#magento.hover a{background-position:-515px 0}
+ .launcher ul li#mediawiki a{background-position:-600px -85px}
+ .launcher ul li#mediawiki:hover a,.launcher ul li#mediawiki.hover a{background-position:-600px 0}
+ .launcher ul li#osclass a{background-position:-685px -85px}
+ .launcher ul li#osclass:hover a,.launcher ul li#osclass.hover a{background-position:-685px 0}
+ #banner{height:570px;background:#111 url(//d33np9n32j53g7.cloudfront.net/assets/new/hero-bg-1da193477507d20ebf21bb247ba06abd.jpg) no-repeat 50% 0}
+ #banner .launcher{background:rgba(255,255,255,0.5)}
+ #banner #hero{height:450px;color:#fff}
+ #banner #hero h1,#banner #hero h2{display:inline-block;background:rgba(42,93,132,0.8);padding:10px 15px;line-height:1em;margin:0}
+ #banner #hero h1{font-size:2.6em;margin:150px 0 5px 0}
+ #banner #hero h2{font-size:1.8em;font-weight:normal}
+ #services{clear:both; margin-top:30px;}
+ #services .container>ul{list-style:none;margin:50px 0;padding:0}
+ #services .container>ul li{overflow:hidden;line-height:inherit}
+ #services .container>ul li .hexagon,#services .container>ul li .hexagon>div{width:347px;height:389px}
+ #services .container>ul li .feature-button{text-align:left;margin-bottom:10px}
+ #services .container>ul li .hexagon,#services .container>ul li .feature-button{color:#fff}
+ #services .container>ul li .hexagon a,#services .container>ul li .feature-button a{color:inherit;margin-top:40px}
+ #services .container>ul li .hexagon a:hover,#services .container>ul li .feature-button a:hover{text-decoration:none}
+ #services .container>ul li .hexagon a div.footer,#services .container>ul li .feature-button a div.footer{text-transform:uppercase;font-size:1.4em;font-weight:600;margin-top:40px}
+ #services .container>ul li .hexagon a div.footer i.fa,#services .container>ul li .feature-button a div.footer i.fa{font-size:inherit;margin-top:0}
+ #services .container>ul li .hexagon{text-align:center;background-repeat:no-repeat;background-position:0 0;background:url(//d33np9n32j53g7.cloudfront.net/assets/new/hexagon-mask-712a1f6535a81c713da6f772d38180da.png) no-repeat 0 0;cursor:pointer}
+ #services .container>ul li .hexagon i.fa{font-size:5em;margin-top:70px}
+ #services .container>ul li .hexagon h3{font-size:2.4em;font-weight:600;text-transform:uppercase;margin-top:35px}
+ #services .container>ul li#run .hexagon{background-color:#2a5d84}
+ #services .container>ul li#deploy .hexagon{background-color:#65a603}
+ #services .container>ul li#deploy .hexagon h3{font-size:3em}
+ #services .container>ul li#host .hexagon{background-color:#bc1300}
+ #services .container>ul li#host .hexagon h3{font-size:1.8em}
+ #services .container>ul li section{margin-top:100px;color:#555}
+ #services .container>ul li section header{margin-bottom:2em}
+ #services .container>ul li section header h3,#services .container>ul li section header h4{line-height:1em;margin:0}#services .container>ul li section header h3{font-size:2.6em;margin-bottom:.2em;color:#111}#services .container>ul li section header h4{font-size:1.8em;font-weight:300}#services .container>ul li section p{font-size:1.2em;font-weight:300}#footer{height:180px;padding:20px 0;background:#333;color:#fff;font-size:.9em}#footer h6{font-size:1em}#footer #jump ul{list-style:none;margin:0}#footer #jump ul a{color:#777}.page-block-text{margin-top:30px;margin-bottom:30px}.modal{padding:10px}.cloud-hosting{margin-bottom:30px}.cloud-hosting h2{font-weight:normal;color:#555}.cloud-hosting .span4 h3{font-size:1.8em;margin-bottom:.75em;text-align:center}.cloud-hosting .span4 h3 .fa{font-size:1.6em;margin-right:5px;vertical-align:middle}.cloud-hosting .span4 h3 .fa-rocket{color:#2a5d84}.cloud-hosting .span4 h3 .fa-bar-chart-o{color:#65a603}.cloud-hosting .span4 h3 .fa-check-square-o{color:#bc1300}.cloud-hosting .span4>ul{color:#555}.cloud-hosting .span4>ul li{margin-bottom:1em}.cloud-hosting #quick-launch{background:#eee;border-radius:10px;margin-top:50px;padding-top:15px;padding-bottom:15px}.cloud-hosting #quick-launch .span2 h4{margin-bottom:0}.cloud-hosting #quick-launch .span4{margin:30px 0 0 0;text-align:center}.cloud-hosting #quick-launch .span4 .btn-large{padding:15px;font-size:1.2em}.cloud-hosting #quick-launch .span4 p{font-size:1.2em}.cloud-hosting .access_console{padding-right:0 !important}.fa-hexagon{color:#fff;background:url(//d33np9n32j53g7.cloudfront.net/assets/new/fa-hexagon-bg.png) no-repeat 0 0;width:50px;height:37px;padding-top:13px;text-align:center}.highlight{font-size:1.2em}.highlight a{border-bottom:1px solid}.progress .bar{background:#2a5d84}body.error{text-align:center;margin-top:10%}body.error>.container{width:640px;text-align:left;margin:0 auto}body.error>.container #logo{border-bottom:1px solid #eee;padding-bottom:1em}.gsc-control-searchbox-only form.gsc-search-box{background-color:#333 !important}form.gsc-search-box input.gsc-input{line-height:18px !important;border:0 !important;background-color:transparent !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important}form.footer_search{background-color:#333 !important}form.footergsc-search-box input.gsc-input{line-height:18px !important;border:0 !important;background-color:transparent !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.launcher ul li{background-image:url(//d33np9n32j53g7.cloudfront.net/assets/new/launch-icon-bg@2x-dcca2b3d57c45e7acf27a8219e8fc219.png);background-size:77px auto}.launcher ul li>a{background-image:url(//d33np9n32j53g7.cloudfront.net/assets/new/launch-icons@2x-09122096c11ec9c51d4ceb642da06093.png);background-size:765px auto}#services .container>ul li .hexagon{background-image:url(//d33np9n32j53g7.cloudfront.net/assets/new/hexagon-mask@2x-70ab419b950aa587bd2d59a68f7beea0.png);background-size:347px auto}}
+
+.mask{ position:relative;top:-389px;background:rgba(255,255,255,.8);  width:347px;height:389px; opacity:0; filter:alpha(opacity=0);z-index:500;}
+.hover .mask{background:rgba(255,255,255,.8);opacity:0.5; filter:alpha(opacity=50); cursor:pointer;}
+.hover .state{position:relative;top:-479px;width:347px;height:90px;color:#fff; opacity:1; filter:alpha(opacity=100); z-index:501;}
+@media screen and (max-width:500px){
+    .launcher ul
+    {
+        margin: 0 auto;
+        margin-left: -30px;
+    }
+}

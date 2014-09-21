@@ -1,0 +1,24 @@
+ul{ padding:0; margin:0; list-style:none;}
+a{ text-decoration:none; color:#F00}
+.lcrbox { margin: 10px 0; overflow: hidden ;height:300px;}
+.lcr_l, .lcr_r { display: block; position: relative; top: 120px; margin-right: 0; text-align: center }
+.lcr_l { float: left }
+.lcr_r { float: right }
+.lcr_c { height:270px; overflow: hidden; position: relative }
+.lcr_c ul { white-space: nowrap; font-size: 0 }
+.lcr_c ul { display: inline-table; vertical-align: top }
+.lcr_c li { display: inline; font-size:13px;}
+.lcr_c li a { display: inline-block }
+.lcr_c img { padding: 2px; height:190px;}
+.lcrbox01 { height: 250px; position: relative; margin-top: 10px; }
+.lcrbox01 .lcr_l, .lcrbox01 .lcr_r { width: 17px; height: 36px; line-height:36px;  margin-top: -18px; background-color: #fff; position: absolute; z-index: 100 }
+.lcrbox01 .lcr_l { left: 0; border-radius: 0 3px 3px 0; opacity: .5; filter: alpha(opacity=50) }
+.lcrbox01 .lcr_l:hover { opacity: .8; filter: alpha(opacity=80) }
+.lcrbox01 .lcr_r { right: 0; border-radius: 3px 0 0 3px; opacity: .5; filter: alpha(opacity=50) }
+.lcrbox01 .lcr_r:hover { opacity: .8; filter: alpha(opacity=80) }
+.lcrbox01 .lcr_c { z-index: 99 height:210px;}
+.lcrbox01 .lcr_c li { padding-left: 10px }
+.lcrbox01 .lcr_c .scroll_first { padding-left: 0 }
+.lcrbox01 .lcr_c img { width: 200px; height: 200px }
+.lcrbox01 .lcr_l .ico, .lcrbox01 .lcr_r .ico { margin-top: 13px }
+:root .lcrbox01 .lcr_l, :root .lcrbox01 .lcr_l:hover, :root .lcrbox01 .lcr_r, :root .lcrbox01 .lcr_r:hover { filter: none }

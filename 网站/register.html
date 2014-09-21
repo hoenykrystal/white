@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="曲谱脸谱创意公司：当中国的传统风味成为时尚界的宠儿，当潮流遇上了东方风格，出来的是更加鲜活、生动、富有时代感的作品。谱趣品牌所有的产品均由我们自己设计、销售，我们的设计融入了更多的中国脸谱元素，体现了一种独特的中式风格的意境。" />
+    <meta name="keywords" content="脸谱,脸谱创意,曲谱脸谱" />
+    <meta name="author" content="Six_Nine" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+	<link href="css/register.css" rel="stylesheet" />
+    <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/Script2.js"></script>
+  <title> 趣谱脸谱注册 </title>
+   
+ </head>
+
+ <body data-spy="scroll" data-target=".bs-docs-sidebar" >
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li><a href="index.html">首页</a></li>
+                                <li><a href="introduce.html">公司品牌</a></li>
+                                <li><a href="product.html">产品专区</a></li>
+                                <li ><a href="new.html">最新上架</a></li>
+                                <li ><a href="vip.html">会员专区</a></li>
+                                <li><a href="weibo.htm">微博互动专区</a></li>
+                            </ul>
+							<div style="float:right;">
+							   <ul class="nav" >
+						        <li><a href="login.html">登录</a></li>
+                                <li class="active"><a href="register.html">注册</a></li>
+							   </ul> 
+						    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="l_zhuCe">
+	  <div class="tit">
+	     <p style="font:40px/120px  Georgia ;margin-left:50px;"> 欢迎加入谱趣大家庭</p>
+	  </div>
+	  <div class="l_zhuCe_center">
+       <div class="left"> 
+	   <img src="images/erectt.gif" width="347" height="700" border="0" alt="">
+	   </div>
+	   <div class="right">
+	     <form>
+		  <div class="tie" >
+		    <span>昵 称:</span>
+			<input type="text" class="text"  id="name" onblur="show1('ni')"/>
+		  </div>
+		   <div class="tie" >
+		    <span>密 码:</span>
+			<input type="password" class="text" onclick="_show()"/>
+		  </div>
+		   <div class="tie" >
+		    <span>确认密码:</span>
+			<input type="password" class="text" id="pass" onblur="show2('re_mima')"/>
+		  </div>
+		   <div class="tie" >
+		    <span style="line-height:40px">性 别:</span>
+			<input type="radio" name="sex" style="height:16px; width:16px ;margin-left:60px;" checked="checked" value="女"/>女
+			<input type="radio" name="sex"style="height:16px; width:16px ;margin-left:70px;" checked="checked" value="男"/>男
+		  </div>
+		  <div class="tie">
+		    <span>生 日:</span>
+			 <select class="sle1">
+			  <option value="1990"/>1990</option>
+			  <option value="1991"/>1991</option>
+			  <option value="1992"/>1992</option>
+			  <option value="1993"/>1993</option>
+			  <option value="1994"/>1994</option>
+			  <option value="1995"/>1995</option>
+			  <option value="1996"/>1996</option>
+			  <option value="1997"/>1997</option>
+			  <option value="1998"/>1998</option>
+			  <option value="1999"/>1999</option>
+			  <option value="2000"/>2000</option>
+			  <option value="80后"/>80后</option>
+			  <option value="00后"/>00后</option>
+			 </select>
+			 <span style="font-size:17px; margin-left:1px">年</span>
+			 <select class="sle2">
+			  <option value="1"/>1</option>
+			  <option value="2"/>2</option>
+			  <option value="3"/>3</option>
+			  <option value="4"/>4</option>
+			  <option value="5"/>5</option>
+			  <option value="6"/>6</option>
+			  <option value="7"/>7</option>
+			  <option value="8"/>8</option>
+			  <option value="9"/>9</option>
+			  <option value="10"/>10</option>
+			  <option value="11"/>11</option>
+			  <option value="12"/>12</option>
+			 </select>
+		      <span style="font-size:17px;margin-left:1px">月</span>
+		  </div>
+		   <div class="tie">
+		    <span>现居住地:</span>
+			<input type="text" class="text" />
+		  </div>
+		  <div class="zhuce">
+		   <input type="button" value="立即注册 " style="color:#ffffff ; background:#78c357;"/>
+		  </div>
+		 </form>
+
+        <div class="ni" id="ni" >
+		  <span class="zhuce_pa">昵称不能为空！</span>
+	    </div>
+
+		<div class="mima" id="mima">
+		    <div class="mima_tip1">
+		      <span>长度不能小于6个字符</span>
+		    </div>
+		    <div class="mima_tip1">
+		      <span>不能包含空格</span>
+		    </div>
+		    <div class="mima_tip1">
+		      <span>不能使8位一下的纯数字</span>
+		    </div>
+	    </div>
+		<div class="re_mima" id="re_mima">
+          <span class="zhuce_pa">重复输入密码！</span>
+		</div>
+	  </div>	  
+	 </div>
+   </div>
+
+  
+ </body>
+</html>
